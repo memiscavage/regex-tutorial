@@ -1,10 +1,8 @@
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
+# An email Regex Walkthrough
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex, or regular expressions, act as tools to identify specific patterns. In this walkthrough, I will explain the purpose of my chosen regex, the different components that make up a regex, and the functions each component performs. Below you will find a table of contents. Within each section for the regex components I will provide detailed information and examples regarding their purpose.
 
 ## Table of Contents
 

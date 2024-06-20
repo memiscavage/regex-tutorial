@@ -27,7 +27,7 @@ Anchors in a regex act as landmarks in the regex for where the expression begins
 
 ### Quantifiers
 
-In a regex, quanitifiers tell the expression "numbers of characters or expressions to match." (MDN Web Docs)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Quantifiers]
+In a regex, quanitifiers tell the expression "numbers of characters or expressions to match." [(MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Quantifiers)
 
 ### Grouping Constructs
 

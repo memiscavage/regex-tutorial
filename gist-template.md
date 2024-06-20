@@ -48,3 +48,6 @@ Meta characters - The pattern searches for a general type of character. For exam
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
+## References 
+[Rex Egg - Information on quantifiers](https://www.rexegg.com/regex-quantifiers.php) 

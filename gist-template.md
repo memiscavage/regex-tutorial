@@ -23,9 +23,11 @@ The regex we will explore today is designed to validate email input or seek out 
 
 ### Anchors
 
-Anchors in a regex expression act as landmarks in the regex for where the expression begins and ends. In our email regex, the '/^' is an anchor, or landmark, that signifies the beginning of the expression while '$/' is the anchor for the end of the expression. This helps our code understand where to start and stop searching.  
+Anchors in a regex act as landmarks in the regex for where the expression begins and ends. In our email regex, the '/^' is an anchor, or landmark, that signifies the beginning of the expression while '$/' is the anchor for the end of the expression. This helps our code understand where to start and stop searching.  
 
 ### Quantifiers
+
+In a regex, quanitifiers tell the expression "numbers of characters or expressions to match." ((MDN Web Docs))[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Quantifiers]
 
 ### Grouping Constructs
 

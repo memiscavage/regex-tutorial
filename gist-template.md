@@ -35,7 +35,7 @@ In the section following the '@' symbol, we see a similar expression '([\da-z\.-
 
 As the name implies, grouping constructs group subexpressions within the regex. In our email regex, we will find 3 different subgroups:
 
-Section 1. /^([a-z0-9_\.-]+) @ Section 2. ([\da-z\.-]+)\ and Section 3. .([a-z\.]{2,6})$/
+Section 1. /^([a-z0-9_\.-]+) Section 2. @([\da-z\.-]+)\ and Section 3. .([a-z\.]{2,6})$/
 
 Section 1 - This subgroup is the user's email handle. 
 
@@ -45,7 +45,7 @@ Section 3 - This subgroup is for the top-level domain, such as .org, .com, .edu,
 
 ### Bracket Expressions
 
-
+TO-DO: bracket expression
 
 ### Character Classes
 
@@ -55,9 +55,16 @@ Meta characters - The pattern searches for a general type of character. For exam
 
 ### The OR Operator
 
+While an OR operator doesn't appear in our email regex, this operator is important in making our pattern search more specific. It is signified with the | symbol. For example, if we only want to find emails with the domain '.org' or '.com', we can edit our regex to: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.(com|org)$/
+
+
 ### Flags
 
+TO-DO: Flags
+
 ### Character Escapes
+
+TO-DO: Character escapes
 
 ## Author
 

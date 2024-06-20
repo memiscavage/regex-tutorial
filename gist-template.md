@@ -45,7 +45,7 @@ Section 3 - This subgroup is for the top-level domain, such as .org, .com, .edu,
 
 ### Bracket Expressions
 
-TO-DO: bracket expression
+In regex, there are square brackets [ ], curly brackets { }, and parenthesis ( ). 
 
 ### Character Classes
 
@@ -55,7 +55,9 @@ Meta characters - The pattern searches for a general type of character. For exam
 
 ### The OR Operator
 
-While an OR operator doesn't appear in our email regex, this operator is important in making our pattern search more specific. It is signified with the | symbol. For example, if we only want to find emails with the domain '.org' or '.com', we can edit our regex to: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.(com|org)$/
+While an OR operator doesn't appear in our email regex, this operator is important in making our pattern search more specific. It is signified with the | symbol. For example, if we only want to find emails with the domain '.org' or '.com', we can edit our regex to: 
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.(com|org)$/
 
 
 ### Flags

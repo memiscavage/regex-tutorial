@@ -27,9 +27,13 @@ Anchors in a regex act as landmarks in the regex for where the expression begins
 
 ### Quantifiers
 
-In a regex, quanitifiers tell the expression "numbers of characters or expressions to match." [(MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Quantifiers)
+In a regex, quanitifiers tell the expression "numbers of characters or expressions to match." [(MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Quantifiers) Quantifiers are preceded by the specifications they are meant to operate on. For example, this section, ([a-z0-9_\.-]+), in our email regex contains a quantifier of '+'. This symbol tells our expression that the string can match any character a-z, 0-9 any number of times. We can refer to sample emails such as 'example123@mail.com' or 'exaaaampplleee11233@mail.com' and know they will be caught by our regex because we have told it to seach for alphabetic and numeric strings and those characters are allowed to repeat within the string.
+
+In the section following the '@' symbol, we see a similar expression '([\da-z\.-]+)'. One difference is our a-z section has a '\d' preceding it. This quantifier looks for any digit or any letter. In our expression, we are only listing letters for the domain name for our email.
 
 ### Grouping Constructs
+
+As the name implies, grouping constructs group subexpressions within the regex. 
 
 ### Bracket Expressions
 
@@ -49,7 +53,8 @@ Meta characters - The pattern searches for a general type of character. For exam
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+[Mariel Miscavage](https://github.com/memiscavage) is a 
 
 ## References 
 [Rex Egg - Information on quantifiers](https://www.rexegg.com/regex-quantifiers.php) 
+[GitHub Docs - Grouping Constructs in Regular Expressions](https://github.com/dotnet/docs/blob/main/docs/standard/base-types/grouping-constructs-in-regular-expressions.md)

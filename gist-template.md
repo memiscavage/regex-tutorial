@@ -31,7 +31,8 @@ The regex we will explore today is designed to validate email input or seek out 
 
 ### Character Classes
 
-Literal characters - The pattern searches for a specific string of characters. For example, if an email address must end in '.com' then the pattern search would need to specify in the regex with (.com)
+Literal characters - The pattern searches for a specific string of characters. For example, if an email address must end in '.com' then the pattern search would need to specify in the regex with (.com) \
+
 Meta characters - The pattern searches for a general type of character. For example, with our email regex, we are searching for any email address domain. It can end in '.edu', '.co', '.uk', '.org'. '.com', etc. To catch any of these characters we use the search pattern \.([a-z\.]{2,6})$/. In this section of the expression, we are saying the characters from a-z and the string can be anywhere between 2 and 6 characters in length.
 
 ### The OR Operator

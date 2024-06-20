@@ -66,7 +66,7 @@ The email regex we are examining doesn't contain any flags, but flags are used i
 
 ### Character Escapes
 
-TO-DO: Character escapes
+Character escapes are utilized with a backslash (\) in regex and function as a way to tell the regex to search literally for the character following a backslash. For example, a square bracket is used to start a string but if we were to type out '\[', the regex will search for a square bracket instead.
 
 ## Author
 
@@ -78,3 +78,5 @@ TO-DO: Character escapes
 [GitHub Docs - Grouping Constructs in Regular Expressions](https://github.com/dotnet/docs/blob/main/docs/standard/base-types/grouping-constructs-in-regular-expressions.md)
 
 [Oracle - Regular Expression Metacharacters](https://docs.oracle.com/cd/E35636_01/doc.11116/e29134/app_regexp.htm#:~:text=The%20curly%20brackets%20are%20used,%7D%2F%22%20matches%20%22xx%22.)
+
+[GitHub Coding Boot Camp - Flags](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial)

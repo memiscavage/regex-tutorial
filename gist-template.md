@@ -2,7 +2,11 @@
 
 ## Summary
 
-Regex, or regular expressions, act as tools to identify specific patterns. In this walkthrough, I will explain the purpose of my chosen regex, the different components that make up a regex, and the functions each component performs. Below you will find a table of contents. Within each section for the regex components I will provide detailed information and examples regarding their purpose.
+Regex, or regular expressions, act as tools to identify specific patterns. In this walkthrough, I will explain the purpose of my chosen regex, the different components that make up a regex, and the functions each component performs. Below you will find a table of contents. Within each section for the regex components I will provide detailed information and examples regarding their purpose. \
+
+The regex we will explore today is designed to validate email input or seek out emails within strings of code. It appears as : \
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 

@@ -45,7 +45,7 @@ Section 3 - This subgroup is for the top-level domain, such as .org, .com, .edu,
 
 ### Bracket Expressions
 
-In regex, there are square brackets [ ], curly brackets { }, and parenthesis ( ). 
+In regex, there are square brackets [ ], curly brackets { }, and parentheses ( ). Characters that are found between square brackets identify characters that we want to search for. In the email regex, we are searching for characters a-z and/or 0-9. Characters withing curly brackets are used to match exact numerical patterns. The '.([a-z\.]{2,6})$/' subexpression contains teh {2,6} numerical quantifier which tells the expression to search for character sets between 2 and 6 characters in length. Parentheses are used to contain or group our subexpressions.
 
 ### Character Classes
 
@@ -62,7 +62,7 @@ While an OR operator doesn't appear in our email regex, this operator is importa
 
 ### Flags
 
-TO-DO: Flags
+The email regex we are examining doesn't contain any flags, but flags are used in regex to add extra parameters or functions. For example, if we were searching for a string of characters and didn't care about upper or lowercase, we would add an 'i' flag to tell the regex that it should be case-insensitive.
 
 ### Character Escapes
 
@@ -76,3 +76,5 @@ TO-DO: Character escapes
 [Rex Egg - Information on quantifiers](https://www.rexegg.com/regex-quantifiers.php) 
 
 [GitHub Docs - Grouping Constructs in Regular Expressions](https://github.com/dotnet/docs/blob/main/docs/standard/base-types/grouping-constructs-in-regular-expressions.md)
+
+[Oracle - Regular Expression Metacharacters](https://docs.oracle.com/cd/E35636_01/doc.11116/e29134/app_regexp.htm#:~:text=The%20curly%20brackets%20are%20used,%7D%2F%22%20matches%20%22xx%22.)

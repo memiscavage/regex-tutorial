@@ -33,7 +33,15 @@ In the section following the '@' symbol, we see a similar expression '([\da-z\.-
 
 ### Grouping Constructs
 
-As the name implies, grouping constructs group subexpressions within the regex. 
+As the name implies, grouping constructs group subexpressions within the regex. In our email regex, we will find 3 different subgroups:
+
+Section 1. /^([a-z0-9_\.-]+) @ Section 2. ([\da-z\.-]+)\ and Section 3. .([a-z\.]{2,6})$/
+
+Section 1 - This subgroup is the user's email handle. 
+
+Section 2 - This subgroup is for the email domain, such as google, aol, yahoo, hotmail. It is preceded by an @ symbol.
+
+Section 3 - This subgroup is for the top-level domain, such as .org, .com, .edu, .uk. It is preceded by a period.
 
 ### Bracket Expressions
 
@@ -53,8 +61,9 @@ Meta characters - The pattern searches for a general type of character. For exam
 
 ## Author
 
-[Mariel Miscavage](https://github.com/memiscavage) is a 
+[Mariel Miscavage](https://github.com/memiscavage) is a full-stack web developer located in Austin TX. 
 
 ## References 
 [Rex Egg - Information on quantifiers](https://www.rexegg.com/regex-quantifiers.php) 
+
 [GitHub Docs - Grouping Constructs in Regular Expressions](https://github.com/dotnet/docs/blob/main/docs/standard/base-types/grouping-constructs-in-regular-expressions.md)

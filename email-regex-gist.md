@@ -66,7 +66,7 @@ The email regex we are examining doesn't contain any flags, but flags are used i
 
 ### Character Escapes
 
-Character escapes are utilized with a backslash (\) in regex and function as a way to tell the regex to search literally for the character following a backslash. For example, a square bracket is used to start a string but if we were to type out '\[', the regex will search for a square bracket instead.
+Character escapes are utilized with a backslash (\) in regex and function as a way to tell the regex to search literally for the character following a backslash. For example, a square bracket is used to start a string but if we were to type out '\[', the regex will search for a square bracket instead. In the email regex, we have a backslash preceding a . '\.' so our expression knows to search for a top-level domain such as '.com', '.edu', etc. 
 
 ## Author
 

@@ -6,7 +6,7 @@ Regex, or regular expressions, act as tools to search for and identify specific 
 
 The regex we will explore today is designed to validate email input or seek out emails within strings of code. It appears as : 
 
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/```
 
 ## Table of Contents
 
